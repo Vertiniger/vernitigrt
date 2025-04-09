@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hold DDoS Service</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #0f0f0f;
+      font-family: 'Arial', sans-serif;
+      color: #fff;
+    }
+
+    .navbar {
+      background-color: #1c1c1c;
+      padding: 16px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+    }
+
+    .navbar h1 {
+      color: #00e5ff;
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .navbar a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+
+    .navbar a:hover {
+      color: #00e5ff;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 28px;
+      margin: 40px 0 20px;
+      color: #00e5ff;
+    }
+
+    .plan-container {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+
+    .plan-card {
+      background-color: #1c1c1c;
+      border-radius: 16px;
+      padding: 24px;
+      max-width: 400px;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+    .plan-title {
+      font-size: 30px;
+      font-weight: 900;
+      margin-bottom: 20px;
+      color: #00e5ff;
+    }
+
+    .benefits {
+      margin-bottom: 24px;
+    }
+
+    .benefits h3 {
+      font-size: 22px;
+      margin-bottom: 14px;
+    }
+
+    .benefits ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .benefits li {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      font-size: 18px;
+    }
+
+    .benefits li::before {
+      content: '✔';
+      color: #4caf50;
+      margin-right: 12px;
+      font-size: 20px;
+    }
+
+    .benefits li.excluded::before {
+      content: '✘';
+      color: #f44336;
+    }
+
+    .protection {
+      background-color: #2a2a2a;
+      padding: 12px;
+      border-radius: 8px;
+      font-size: 16px;
+      margin-bottom: 28px;
+    }
+
+    .price {
+      font-size: 34px;
+      font-weight: 900;
+      margin-bottom: 10px;
+    }
+
+    .duration {
+      font-size: 16px;
+      color: #aaa;
+      margin-bottom: 24px;
+    }
+
+    .purchase-btn {
+      background-color: #00e5ff;
+      color: #000;
+      border: none;
+      padding: 14px 22px;
+      border-radius: 10px;
+      font-weight: 900;
+      font-size: 18px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .purchase-btn:hover {
+      background-color: #4befff;
+    }
+
+    .payment-info {
+      text-align: center;
+      margin-top: 40px;
+      color: #ccc;
+    }
+
+    .payment-info span {
+      color: #00e5ff;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <h1>HOLD DDOS</h1>
+    <div>
+      <a href="#hold-plans">Hold Services</a>
+      <a href="#user-plans">User Plans</a>
+      <a href="https://t.me/wayneteller">Contact</a>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <div id="hold-plans" class="plan-container">
+
+      <!-- HOLD BASIC -->
+      <div class="plan-card">
+        <div class="plan-title">HOLD SERVICE</div>
+        <div class="benefits">
+          <h3>Basic Benefits</h3>
+          <ul>
+            <li>1 Hour Non-stop Attack</li>
+            <li>Cant Reach The Page</li>
+            <li class="excluded">Removed From Keyword</li>
+            <li class="excluded">Down 24/7</li>
+          </ul>
+        </div>
+        <h3 style="font-size: 22px;">Blacklist Site</h3>
+        <div class="protection">Static Site, Domain Pages.dev, Domain r2.dev, Domain .dev</div>
+        <div class="price">$11.00</div>
+        <div class="duration">/ per Hour</div>
+        <button onclick="location.href='https://t.me/wayneteller'" class="purchase-btn">Contact Me</button>
+      </div>
+
+      <!-- HOLD PRO -->
+      <div class="plan-card">
+        <div class="plan-title">HOLD SERVICE</div>
+        <div class="benefits">
+          <h3>PRO Benefits</h3>
+          <ul>
+            <li>1 Day Non-stop Attack</li>
+            <li>Cant Reach The Page</li>
+            <li>Removed From Keyword</li>
+            <li>Down 24/7</li>
+          </ul>
+        </div>
+        <h3 style="font-size: 22px;">Blacklist Site</h3>
+        <div class="protection">Static Site, Domain Pages.dev, Domain r2.dev, Domain .dev</div>
+        <div class="price">$150.00</div>
+        <div class="duration">/ per Day</div>
+        <button onclick="location.href='https://t.me/wayneteller'" class="purchase-btn">Contact Me</button>
+      </div>
+
+      <!-- HOLD ULTIMATE -->
+      <div class="plan-card">
+        <div class="plan-title">HOLD SERVICE</div>
+        <div class="benefits">
+          <h3>Until Suspended</h3>
+          <ul>
+            <li>Suspend Website Page</li>
+            <li>Cant Reach The Page</li>
+            <li>Removed From Keyword</li>
+            <li>Cant Access Permanently</li>
+          </ul>
+        </div>
+        <h3 style="font-size: 22px;">Blacklist Site</h3>
+        <div class="protection">Static Site, Domain Pages.dev, Domain r2.dev, Domain .dev</div>
+        <div class="price">$???.??</div>
+        <div class="duration">/ Until Suspend</div>
+        <button onclick="location.href='https://t.me/wayneteller'" class="purchase-btn">Contact Me</button>
+      </div>
+    </div>
+
+    <!-- USER PLAN SECTION -->
+    <div id="user-plans">
+      <h2 class="section-title">User Plans</h2>
+
+      <!-- BASIC USER PLAN -->
+      <div class="plan-card">
+        <div class="plan-title">Basic Plan</div>
+        <ul class="benefits">
+          <li>TimeLimit: 120 Seconds</li>
+          <li>Concurrents: 1x</li>
+          <li>ViP: False</li>
+          <li>Cooldown: 60s</li>
+          <li>Expired: 10 Days</li>
+        </ul>
+        <div class="price">IDR 100.000 / $10</div>
+        <button onclick="location.href='https://t.me/wayneteller'" class="purchase-btn">Buy Now</button>
+      </div>
+
+      <!-- BEGINNER PLAN -->
+      <div class="plan-card">
+        <div class="plan-title">Beginner Plan</div>
+        <ul class="benefits">
+          <li>TimeLimit: 180 Seconds</li>
+          <li>Concurrents: 2x</li>
+          <li>ViP: True</li>
+          <li>Cooldown: 40s</li>
+          <li>Expired: 30 Days</li>
+        </ul>
+        <div class="price">IDR 300.000 / $25</div>
+        <button onclick="location.href='https://t.me/wayneteller'" class="purchase-btn">Buy Now</button>
+      </div>
+
+      <!-- VIP PLAN -->
+      <div class="plan-card">
+        <div class="plan-title">VIP Plan</div>
+        <ul class="benefits">
+          <li>TimeLimit: 300 Seconds</li>
+          <li>Concurrents: 3x</li>
+          <li>ViP: True</li>
+          <li>Cooldown: 30s</li>
+          <li>Expired: 30 Days</li>
+        </ul>
+        <div class="price">IDR 500.000 / $40</div>
+        <button onclick="location.href='https://t.me/wayneteller'" class="purchase-btn">Buy Now</button>
+      </div>
+    </div>
+
+    <div class="payment-info">
+      <p>Payment Support: <span>BTC</span> | <span>USDT</span> | <span>Crypto</span> | <span>QRIS</span> | <span>Dana</span></p>
+    </div>
+  </div>
+</body>
+</html>
